@@ -55,13 +55,13 @@ export default App
 
 ## Props
 
-| Property        | Type                 | Description                                                                               | Default Value |     |
-| --------------- | -------------------- | ----------------------------------------------------------------------------------------- | ------------- | --- |
+| Property        | Type                 | Description                                                                               | Default Value |
+| --------------- | -------------------- | ----------------------------------------------------------------------------------------- | ------------- |
 | `number`        | `string` \| `number` | The number or character to display                                                        | 0             |
-| `size`          | `string` \| `number` | The size of the digit (number or percentage).<br> Forwared to `height` of the SVG element | 24            |     |
-| `color`         | `string`             | The color of the active segments. (Supports all CSS color formats)                        | currentcolor  |     |
-| `inactiveColor` | `string`             | The color of the inactive segments                                                        | -             |     |
+| `size`          | `string` \| `number` | The size of the digit (number or percentage).<br> Forwared to `height` of the SVG element | 24            |
+| `color`         | `string`             | The color of the active segments. (Supports all CSS color formats)                        | currentcolor  |
+| `inactiveColor` | `string`             | The color of the inactive segments                                                        | -             |
 | `alphaRatio`    | `string` \| `number` | Transparency of the digit from 0 to 1.<br>(If no inactiveColor provided)                  | 0.1           |
-| `className`     | `string`             | Additional CSS classes. Forwared to the SVG element                                       | -             |     |
+| `className`     | `string`             | Additional CSS classes. Forwared to the SVG element                                       | -             |
 
 Enjoy developing and reliving the nostalgia! 🚀
