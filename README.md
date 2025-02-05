@@ -34,7 +34,7 @@ import { RetroDigit } from 'react-retro-digit'
 function App() {
   return (
     <div style={{ display: 'flex', gap: 2 }}>
-      <RetroDigit number="7" color="currentColor" />
+      <RetroDigit number="7" color="currentcolor" />
       <RetroDigit
         number={2}
         size={24}
@@ -59,7 +59,7 @@ export default App
 | --------------- | -------------------- | ----------------------------------------------------------------------------------------- | ------------- | --- |
 | `number`        | `string` \| `number` | The number or character to display                                                        | 0             |
 | `size`          | `string` \| `number` | The size of the digit (number or percentage).<br> Forwared to `height` of the SVG element | 24            |     |
-| `color`         | `string`             | The color of the active segments. (Supports all CSS color formats)                        | currentColor  |     |
+| `color`         | `string`             | The color of the active segments. (Supports all CSS color formats)                        | currentcolor  |     |
 | `inactiveColor` | `string`             | The color of the inactive segments                                                        | -             |     |
 | `alphaRatio`    | `string` \| `number` | Transparency of the digit from 0 to 1.<br>(If no inactiveColor provided)                  | 0.1           |
 | `className`     | `string`             | Additional CSS classes. Forwared to the SVG element                                       | -             |     |
