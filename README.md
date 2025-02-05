@@ -13,7 +13,8 @@ With this React component, you can display numbers in the classic "seven-segment
 
 ## Preview
 
-Here's how the component looks:
+Here's how the it looks like:<br>
+![preview](https://github.com/ms007/react-retro-digit/blob/main/doc/preview.png?raw=true)
 
 ## Installation
 
