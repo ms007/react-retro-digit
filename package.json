@@ -1,9 +1,13 @@
 {
   "name": "react-retro-digit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A retro digital number component for React",
   "author": "ms007",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms007/react-retro-digit.git"
+  },
   "type": "module",
   "files": [
     "dist"
